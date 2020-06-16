@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.d8a44408.chunk.css",
+    "main.js": "/resume/static/js/main.7bb576bd.chunk.js",
+    "main.js.map": "/resume/static/js/main.7bb576bd.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
+    "static/js/2.cbc25f3c.chunk.js": "/resume/static/js/2.cbc25f3c.chunk.js",
+    "static/js/2.cbc25f3c.chunk.js.map": "/resume/static/js/2.cbc25f3c.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.e58c56d5846f4a280f3a0e95f8109d9b.js": "/resume/precache-manifest.e58c56d5846f4a280f3a0e95f8109d9b.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.d8a44408.chunk.css.map": "/resume/static/css/main.d8a44408.chunk.css.map",
+    "static/js/2.cbc25f3c.chunk.js.LICENSE.txt": "/resume/static/js/2.cbc25f3c.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/resume/static/media/Resume.0d8052c0.pdf",
+    "static/media/fontello.css": "/resume/static/media/fontello.ef01032c.svg",
+    "static/media/hero.jpg": "/resume/static/media/hero.a132b8d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a54ac2ac.js",
+    "static/js/2.cbc25f3c.chunk.js",
+    "static/css/main.d8a44408.chunk.css",
+    "static/js/main.7bb576bd.chunk.js"
+  ]
+}
