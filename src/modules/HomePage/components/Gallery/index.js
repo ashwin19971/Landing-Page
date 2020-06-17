@@ -21,20 +21,22 @@ class Gallery extends Component {
                 <div id="gallery-inside-wrapper">
                     <img id="gallery-top-img" src={galleryTopBorder} />
                     <div id="gallery-slide-wrapper">
-                        {
-                            galleries.map(val => (
-                                <span
-                                    key={val.id}
-                                    className={`${activeSlideId == val.id ? `${activeSlideId == 5 ? "active-slide-last" : "active-slide"}` : ""}`}
-                                    onClick={() => this.setState({ activeSlideId: val.id })}
-                                >
-                                    <img src={val.img} />
-                                    <p className="gallery-slide-text">{val.heading}</p>
-                                    <i />
-                                    <p className="gallery-slide-description">{val.description}</p>
-                                </span>
-                            ))
-                        }
+                        <div id="gallery-slide-inside-wrapper">
+                            {
+                                galleries.map(val => (
+                                    <span
+                                        key={val.id}
+                                        className={`${activeSlideId == val.id ? `${activeSlideId == 5 ? "active-slide-last" : "active-slide"}` : ""}`}
+                                        onClick={() => this.setState({ activeSlideId: val.id })}
+                                    >
+                                        <img src={val.img} />
+                                        <p className="gallery-slide-text">{val.heading}</p>
+                                        <i />
+                                        <p className="gallery-slide-description">{val.description}</p>
+                                    </span>
+                                ))
+                            }
+                        </div>
                     </div>
                     <div id="gallery-slide-dots">
                         {

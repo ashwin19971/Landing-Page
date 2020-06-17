@@ -24,6 +24,9 @@
             &:last-of-type {
                 margin-right: 0px;
                 width: 19%;
+                @media only screen and (max-width: 425px) {
+                    width: 161px;
+                }
             }
             img {
                 height: 36px;
@@ -57,18 +60,30 @@
                 line-height: 12px;
                 font-family: Montserrat;
             }
+            @media only screen and (max-width: 425px) {
+                width: 161px;
+            }
         }
         .active-slide {
             width: calc(24% - 25px);
             padding-top: 37px;
             margin-top: -20px;
             min-height: 161px;
+            @media only screen and (max-width: 425px) {
+                width: 226px;
+            }
         }
         .active-slide-last {
             width: 24% !important;
             padding-top: 37px;
             margin-top: -20px;
             min-height: 161px;
+            @media only screen and (max-width: 425px) {
+                width: 226px;
+            }
+        }
+        @media only screen and (max-width: 425px) {
+            overflow-x: auto;
         }
     }
     #gallery-slide-dots {
@@ -105,4 +120,10 @@
 
 #gallery-inside-wrapper {
     background-color: #ffaa00;
+}
+
+#gallery-slide-inside-wrapper {
+    @media only screen and (max-width: 425px) {
+        width: 980px;
+    }
 }

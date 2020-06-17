@@ -1,10 +1,4 @@
-
-## Project setup instructions
-
-### Prerequisite
-- npm v4 or above
-- node v8 or above
-
+## Setup instructions
 
 ### Get the code and start project
 - clone the repo using `git clone https://github.com/ashwin19971/landing-page.git`
