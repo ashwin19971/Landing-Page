@@ -13,7 +13,7 @@ class PageHeader extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            height: 700
+            height: 900
         }
     }
 
