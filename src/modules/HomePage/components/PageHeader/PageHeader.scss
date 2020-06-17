@@ -13,6 +13,9 @@
         bottom: -17px;
         left: 0px;
         width: 100%;
+        @media only screen and (max-width: 425px) {
+            bottom: -7px;
+        }
     }
     #top-logo-img {
         position: relative;
@@ -20,6 +23,10 @@
         height: 73px;
         margin-top: 20px;
         margin-left: 118px;
+        cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            margin-left: 7%;
+        }
     }
     #top-slide-heading {
         margin: 0px;
@@ -30,15 +37,38 @@
         margin-left: 139px;
         margin-top: 87px;
         font-family: 'Lato', sans-serif;
+        @media only screen and (max-width: 768px) {
+            font-size: 36px;
+            margin-top: 40px;
+        }
+        @media only screen and (max-width: 425px) {
+            margin-left: 0px;
+            text-align: center;
+            margin-top: 0px;
+            font-size: 25px;
+            line-height: 35px;
+        }
+        @media only screen and (max-width: 320px) {
+            margin-top: -15px;
+        }
     }
     #top-text-background {
         position: relative;
         width: 395px;
         min-height: 86px;
+        @media only screen and (max-width: 425px) {
+            width: 75%;
+            min-height: 50px;
+            margin-left: 20%;
+        }
     }
     #top-slide-wrapper {
         margin-left: 86px;
         position: relative;
+        @media only screen and (max-width: 425px) {
+            margin-left: 0px;
+            text-align: center;
+        }
     }
     #top-text {
         position: absolute;
@@ -52,6 +82,21 @@
         bottom: 22px;
         margin: 0px;
         left: 56px;
+        @media only screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+        @media only screen and (max-width: 425px) {
+            font-size: 10px;
+            left: 33%;
+            width: 140px;
+            top: 25%;
+        }
+        @media only screen and (max-width: 320px) {
+            left: 28%;
+            min-height: 20px;
+            line-height: 12px;
+            top: 32%;
+        }
     }
     #top-order-now {
         margin-left: 118px;
@@ -68,12 +113,16 @@
         color: #a80e0e;
         cursor: pointer;
         font-family: 'Lato', sans-serif;
+        text-decoration: none;
         i {
             float: right;
             margin-right: 12px;
             color: #a80e0e;
             font-size: 11px;
             margin-top: 3px;
+        }
+        @media only screen and (max-width: 425px) {
+            display: none;
         }
     }
     #top-left-arrow {
@@ -82,11 +131,23 @@
         width: 12px;
         cursor: pointer;
         transform: rotate(180deg);
+        @media only screen and (max-width: 768px) {
+            top: 200px;
+        }
+        @media only screen and (max-width: 425px) {
+            display: none;
+        }
     }
     #top-right-arrow {
         position: absolute;
         right: 35px;
-        width: 20px;
+        width: 12px;
         cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            top: 200px;
+        }
+        @media only screen and (max-width: 425px) {
+            display: none;
+        }
     }
 }

@@ -28,6 +28,9 @@
     }
     .testimonial-slide {
         margin-left: 44px;
+        @media only screen and (max-width: 768px) {
+            margin-right: 44px;
+        }
     }
     .testimonial-slide-left-wrapper {
         position: relative;
@@ -43,6 +46,16 @@
             bottom: -50px;
             left: 0px;
             z-index: -1;
+            @media only screen and (max-width: 425px) {
+                width: 50%;
+                height: 80%;
+                left: 40px;
+                bottom: -30px;            
+            }
+        }
+        @media only screen and (max-width: 425px) {
+            padding-left: 0px;
+            text-align: center;
         }
     }
     .testimonial-slide-right-wrapper {
@@ -51,9 +64,15 @@
         padding-left: 35px;
         vertical-align: top;
         padding-top: 52px;
+        @media only screen and (max-width: 425px) {
+            width: 100%;
+        }
     }
     .testimonial-slide-intro-img {
         width: 335px;
+        @media only screen and (max-width: 425px) {
+            width: 50%;
+        }
     }
     .testimonial-slide-quote-img {
         width: 50px;
@@ -69,6 +88,9 @@
         display: block;
         max-width: 360px;
         margin-bottom: 28px;
+        @media only screen and (max-width: 425px) {
+            max-width: 75%;
+        }
     }
     .testimonial-slide-sub-wrapper {
         display: inline-block;
