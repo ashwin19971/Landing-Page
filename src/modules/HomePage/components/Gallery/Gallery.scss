@@ -1,0 +1,102 @@
+#gallery-wrapper {
+    padding-top: 66px;
+    // margin-bottom: 64px;
+    #gallery-top-img {
+        width: 100%;
+        margin-top: -15px;
+    }
+    #gallery-slide-wrapper {
+        margin-top: 35px;
+        margin-bottom: 14px;
+        span {
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(19% - 25px);
+            border-radius: 3px;
+            box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
+            background-color: white;
+            min-height: 141px;
+            margin-right: 25px;
+            text-align: center;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            &:last-of-type {
+                margin-right: 0px;
+                width: 19%;
+            }
+            img {
+                height: 36px;
+                margin-bottom: 10px;
+            }
+            i {
+                width: 25px;
+                height: 2px;
+                background-color: #ffaa00;
+                margin: 0 auto;
+                display: inline-block;
+                vertical-align: top;
+                margin-bottom: 10px;
+            }
+            .gallery-slide-text {
+                margin: 0px;
+                max-width: 89px;
+                margin: 0 auto;
+                font-weight: 600;
+                font-family: Montserrat;
+                font-size: 10px;
+                line-height: 13.5px;
+                margin-bottom: 10px;
+                color: black;
+                min-height: 27px;
+            }
+            .gallery-slide-description {
+                max-width: 109px;
+                margin: 0 auto;
+                font-size: 8px;
+                line-height: 12px;
+                font-family: Montserrat;
+            }
+        }
+        .active-slide {
+            width: calc(24% - 25px);
+            padding-top: 37px;
+            margin-top: -20px;
+            min-height: 161px;
+        }
+        .active-slide-last {
+            width: 24% !important;
+            padding-top: 37px;
+            margin-top: -20px;
+            min-height: 161px;
+        }
+    }
+    #gallery-slide-dots {
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+        i {
+            width: 7px;
+            height: 4px;
+            background-color: #b7b5b5;
+            border-radius: 5px;
+            margin-right: 7px;
+            display: inline-block;
+            &:last-of-type {
+                margin-right: 0px;
+            }
+        }
+        .active-dot {
+            width: 12px;
+            background-color: white;
+        }
+    }
+    #gallery-bottom-img {
+        width: 100%;
+        margin-bottom: -35px;
+    }
+}
+
+#gallery-inside-wrapper {
+    background-color: #ffaa00;
+}

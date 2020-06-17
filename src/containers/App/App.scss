@@ -1,7 +1,10 @@
+// @font-face {
+//   font-family: "myfont";
+//   src: url("../../assets/font/myfont.ttf") format("truetype");
+// }
 body {
   margin: 0 auto;
-  font-family: Nunito Sans;
+  // font-family: Nunito Sans;
   max-width: 1440px;
-  color: rgba(0, 0, 0, 0.5);
   transition: color .25s ease;
 }

@@ -1,0 +1,123 @@
+#testimonial-wrapper {
+    padding-top: 64px;
+    padding-bottom: 105px;
+    #testimonial-heading {
+        margin: 0 auto;
+        display: block;
+        max-width: 175px;
+        font-size: 20px;
+        line-height: 23px;
+        color: #a80e0e;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 12px;
+    }
+    #testimonial-bottom-border {
+        width: 188px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 13px;
+    }
+    #testimonial-description {
+        margin: 0 auto;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        font-family: Montserrat;
+        color: #382e36;
+        margin-bottom: 63px;
+    }
+    .testimonial-slide {
+        margin-left: 44px;
+    }
+    .testimonial-slide-left-wrapper {
+        position: relative;
+        padding-left: 74px;
+        display: inline-block;
+        i {
+            position: absolute;
+            width: 207px;
+            height: 182px;
+            border-radius: 5px;
+            background-color: #a80e0e;
+            display: inline-block;
+            bottom: -50px;
+            left: 0px;
+            z-index: -1;
+        }
+    }
+    .testimonial-slide-right-wrapper {
+        width: calc(100% - 445px);
+        display: inline-block;
+        padding-left: 35px;
+        vertical-align: top;
+        padding-top: 52px;
+    }
+    .testimonial-slide-intro-img {
+        width: 335px;
+    }
+    .testimonial-slide-quote-img {
+        width: 50px;
+        margin-bottom: 28px;
+    }
+    .testimonial-slide-description {
+        margin: 0px;
+        line-height: 20px;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 200;
+        color: black;
+        display: block;
+        max-width: 360px;
+        margin-bottom: 28px;
+    }
+    .testimonial-slide-sub-wrapper {
+        display: inline-block;
+        margin-bottom: 6px;
+        p {
+            margin: 0px;
+            max-width: 97px;
+            line-height: 15px;
+            font-family: Montserrat;
+            font-size: 13px;
+            color: black;
+            margin-right: 10px;
+            display: inline-block;
+            font-weight: 600;
+        }
+        i {
+            background-color: #a80e0e;
+            display: inline-block;
+            width: 60px;
+            height: 2px;
+            vertical-align: top;
+            margin-top: 9px;
+        }
+    }
+    .testimonial-slide-profile {
+        margin: 0px;
+        font-size: 8px;
+        line-height: 10px;
+        font-family: Montserrat;
+        font-weight: 200;
+        display: block;    
+    }
+    .testimonial-dots-wrapper {
+        margin-top: 25px;
+        i {
+            width: 7px;
+            height: 4px;
+            background-color: #b7b5b5;
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 7px;
+            vertical-align: top;
+            &:last-of-type {
+                margin-right: 0px;
+            }
+        }
+        .active-tesimonial-dot {
+            width: 12px;
+            background-color: #ffaa00;
+        }
+    }
+}

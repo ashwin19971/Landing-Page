@@ -1,0 +1,92 @@
+#page-header-wrapper {
+    min-height: 700px;
+    // margin-bottom: 73px;
+    height: 700px;
+    position: relative;
+    #top-background-img {
+        width: 100%;
+        position: absolute;
+        left: 0px;
+    }
+    #top-bottom-border-img {
+        position: absolute;
+        bottom: -17px;
+        left: 0px;
+        width: 100%;
+    }
+    #top-logo-img {
+        position: relative;
+        width: 106px;
+        height: 73px;
+        margin-top: 20px;
+        margin-left: 118px;
+    }
+    #top-slide-heading {
+        margin: 0px;
+        font-size: 48px;
+        line-height: 55px;
+        color: white;
+        position: relative;
+        margin-left: 139px;
+        margin-top: 87px;
+        font-family: 'Lato', sans-serif;
+    }
+    #top-text-background {
+        position: relative;
+        width: 395px;
+        min-height: 86px;
+    }
+    #top-slide-wrapper {
+        margin-left: 86px;
+        position: relative;
+    }
+    #top-text {
+        position: absolute;
+        width: 185px;
+        min-height: 38.5px;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 19px;
+        color: white;
+        bottom: 22px;
+        margin: 0px;
+        left: 56px;
+    }
+    #top-order-now {
+        margin-left: 118px;
+        margin-top: 26px;
+        background-color: #ffaa00;
+        border-radius: 34px;
+        min-height: 26px;
+        width: 103px;
+        position: relative;
+        padding-top: 8px;
+        padding-left: 25px;
+        display: inline-block;
+        font-size: 14px;
+        color: #a80e0e;
+        cursor: pointer;
+        font-family: 'Lato', sans-serif;
+        i {
+            float: right;
+            margin-right: 12px;
+            color: #a80e0e;
+            font-size: 11px;
+            margin-top: 3px;
+        }
+    }
+    #top-left-arrow {
+        position: absolute;
+        left: 35px;
+        width: 12px;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
+    #top-right-arrow {
+        position: absolute;
+        right: 35px;
+        width: 20px;
+        cursor: pointer;
+    }
+}

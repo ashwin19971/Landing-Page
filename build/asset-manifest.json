@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.d8a44408.chunk.css",
-    "main.js": "/resume/static/js/main.7bb576bd.chunk.js",
-    "main.js.map": "/resume/static/js/main.7bb576bd.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.cbc25f3c.chunk.js": "/resume/static/js/2.cbc25f3c.chunk.js",
-    "static/js/2.cbc25f3c.chunk.js.map": "/resume/static/js/2.cbc25f3c.chunk.js.map",
-    "index.html": "/resume/index.html",
-    "precache-manifest.e58c56d5846f4a280f3a0e95f8109d9b.js": "/resume/precache-manifest.e58c56d5846f4a280f3a0e95f8109d9b.js",
-    "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.d8a44408.chunk.css.map": "/resume/static/css/main.d8a44408.chunk.css.map",
-    "static/js/2.cbc25f3c.chunk.js.LICENSE.txt": "/resume/static/js/2.cbc25f3c.chunk.js.LICENSE.txt",
-    "static/media/Resume.pdf": "/resume/static/media/Resume.0d8052c0.pdf",
-    "static/media/fontello.css": "/resume/static/media/fontello.ef01032c.svg",
-    "static/media/hero.jpg": "/resume/static/media/hero.a132b8d8.jpg"
+    "main.css": "/landing-page/static/css/main.6fa0dbbe.chunk.css",
+    "main.js": "/landing-page/static/js/main.2aeecf09.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.2aeecf09.chunk.js.map",
+    "runtime-main.js": "/landing-page/static/js/runtime-main.0168a2a6.js",
+    "runtime-main.js.map": "/landing-page/static/js/runtime-main.0168a2a6.js.map",
+    "static/js/2.74631a76.chunk.js": "/landing-page/static/js/2.74631a76.chunk.js",
+    "static/js/2.74631a76.chunk.js.map": "/landing-page/static/js/2.74631a76.chunk.js.map",
+    "index.html": "/landing-page/index.html",
+    "precache-manifest.a4fc68f418594d02b5b6f608d3561c5c.js": "/landing-page/precache-manifest.a4fc68f418594d02b5b6f608d3561c5c.js",
+    "service-worker.js": "/landing-page/service-worker.js",
+    "static/css/main.6fa0dbbe.chunk.css.map": "/landing-page/static/css/main.6fa0dbbe.chunk.css.map",
+    "static/js/2.74631a76.chunk.js.LICENSE.txt": "/landing-page/static/js/2.74631a76.chunk.js.LICENSE.txt",
+    "static/media/fontello.css": "/landing-page/static/media/fontello.ef01032c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a54ac2ac.js",
-    "static/js/2.cbc25f3c.chunk.js",
-    "static/css/main.d8a44408.chunk.css",
-    "static/js/main.7bb576bd.chunk.js"
+    "static/js/runtime-main.0168a2a6.js",
+    "static/js/2.74631a76.chunk.js",
+    "static/css/main.6fa0dbbe.chunk.css",
+    "static/js/main.2aeecf09.chunk.js"
   ]
 }

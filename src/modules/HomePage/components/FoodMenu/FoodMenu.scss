@@ -1,0 +1,64 @@
+#food-menu-wrapper {
+    padding-top: 73px;
+    text-align: center;
+    // margin-bottom: 66px;
+}
+#want-to-eat {
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #a80e0e;
+    margin-bottom: 7px;
+
+}
+#menu-underline {
+    margin-bottom: 9px;
+    width: 189px;
+}
+#menu-text {
+    margin: 0px;
+    line-height: 12px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 36px;
+}
+#menu-options-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+    span {
+        display: inline-block;
+        width: 14.28%;
+        min-height: 138px;
+        min-width: 124px;
+        cursor: pointer;
+        vertical-align: top;
+        position: relative;
+        img {
+            width: 50px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+        .menu-option-text {
+            margin: 0px;
+            line-height: 11px;
+            font-size: 9px;
+            font-weight: 600;
+            font-family: Montserrat;
+            color: black;
+            margin-bottom: 20px;
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        &:hover {
+            border-radius: 2.5px;
+            box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
+        }
+    }
+    .active-menu {
+        border-radius: 2.5px;
+        box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
+    }
+}
