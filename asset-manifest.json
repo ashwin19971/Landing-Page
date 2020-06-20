@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.27160b81.chunk.css",
-    "main.js": "/landing-page/static/js/main.67c72365.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.67c72365.chunk.js.map",
-    "runtime-main.js": "/landing-page/static/js/runtime-main.0168a2a6.js",
-    "runtime-main.js.map": "/landing-page/static/js/runtime-main.0168a2a6.js.map",
-    "static/js/2.b48f5323.chunk.js": "/landing-page/static/js/2.b48f5323.chunk.js",
-    "static/js/2.b48f5323.chunk.js.map": "/landing-page/static/js/2.b48f5323.chunk.js.map",
+    "main.js": "/landing-page/static/js/main.6a88dae4.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.6a88dae4.chunk.js.map",
+    "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
+    "runtime-main.js.map": "/landing-page/static/js/runtime-main.8c4e35fe.js.map",
+    "static/js/2.d5a28d60.chunk.js": "/landing-page/static/js/2.d5a28d60.chunk.js",
+    "static/js/2.d5a28d60.chunk.js.map": "/landing-page/static/js/2.d5a28d60.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.72585f3f31f07d63172794c31c4d8014.js": "/landing-page/precache-manifest.72585f3f31f07d63172794c31c4d8014.js",
+    "precache-manifest.52ead95b5613873724e6d45d3bc0da04.js": "/landing-page/precache-manifest.52ead95b5613873724e6d45d3bc0da04.js",
     "service-worker.js": "/landing-page/service-worker.js",
     "static/css/main.27160b81.chunk.css.map": "/landing-page/static/css/main.27160b81.chunk.css.map",
-    "static/js/2.b48f5323.chunk.js.LICENSE.txt": "/landing-page/static/js/2.b48f5323.chunk.js.LICENSE.txt",
+    "static/js/2.d5a28d60.chunk.js.LICENSE.txt": "/landing-page/static/js/2.d5a28d60.chunk.js.LICENSE.txt",
     "static/media/fontello.css": "/landing-page/static/media/fontello.78acff8c.woff",
     "static/media/gallery-bottom-border.png": "/landing-page/static/media/gallery-bottom-border.ff299076.png",
     "static/media/gallery-top-border.png": "/landing-page/static/media/gallery-top-border.e0deb320.png",
@@ -21,9 +21,9 @@
     "static/media/top-bottom-border.png": "/landing-page/static/media/top-bottom-border.d1cf3ace.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0168a2a6.js",
-    "static/js/2.b48f5323.chunk.js",
+    "static/js/runtime-main.8c4e35fe.js",
+    "static/js/2.d5a28d60.chunk.js",
     "static/css/main.27160b81.chunk.css",
-    "static/js/main.67c72365.chunk.js"
+    "static/js/main.6a88dae4.chunk.js"
   ]
 }
